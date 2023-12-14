@@ -2,11 +2,6 @@ import java.util.Scanner;
 
 public class Func1 {
 
-    public static double multiplica(double a, double b) {
-        double result = a * b;
-        return result;
-    }
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -16,6 +11,11 @@ public class Func1 {
         double mult = multiplica(num1,num2);
         System.out.println(mult);
 
+    }
+
+    public static double multiplica(double a, double b) {
+        double result = a * b;
+        return result;
     }
 
 }
